@@ -1,0 +1,27 @@
+{
+  "name": "gde-adapter",
+  "description": "Third-party adapter used to send postMessages to the GDE web application",
+  "version": "1.0.2",
+  "homepage": "https://git.logibec.com/projects/WEB/repos/gde-adapter/",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/gde-adapter.js",
+    "ignore": [
+        "app",
+        "config",
+        ".bowerrc",
+        ".gitignore",
+        ".jshintrc",
+        "bower.json",
+        "Gruntfile.js",
+        "LICENSE",
+        "package.json",
+        "README.md"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.4.0",
+    "angular-sanitize": "~1.4.3",
+    "jquery": "~1.11.3"
+  }
+}

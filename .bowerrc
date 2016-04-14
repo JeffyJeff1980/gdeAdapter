@@ -1,0 +1,13 @@
+{
+  "directory": "bower_components",
+  "json": "bower.json",
+  "registry": {
+  "register": "https://bower.logibec.com",
+  "publish": "https://bower.logibec.com",
+  "search": [
+    "https://bower.logibec.com",
+    "https://bower.herokuapp.com",
+    "http://vwdevteam11.logibec.com:5678"
+  ]
+ }
+}

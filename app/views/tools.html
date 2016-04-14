@@ -1,0 +1,51 @@
+
+<div class="container col-lg-12 col-md-12" ng-cloak style="padding-top: 15px">
+    <div class="nopadding col-md-4 col-lg-4">
+            <b>Fonctions disponibles</b>
+            <div class="form-group">
+                <div class="col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px">
+                    <button class="btn btn-default" ng-click="ouvrir()">Ouvrir</button>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px">
+                    <button class="btn btn-default" ng-click="nouveau()">Nouveau</button>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px">
+                    <button class="btn btn-default" ng-click="passerValeurs(toolsModel.otherInput)">Passer Valeurs</button>
+                    <input class="input-sm" type="text" id="passerValeurs" ng-model="toolsModel.otherInput">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px">
+                    <button class="btn btn-default" ng-click="sauvegarder()">Sauvegarder</button>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px">
+                    <button class="btn btn-default" ng-click="incomplet()">Incomplet</button>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px">
+                    <button class="btn btn-default" ng-click="annuler()">Annuler</button>
+                </div>            
+                <div class="col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px">
+                    <button class="btn btn-default" ng-click="imprimer()">Imprimer</button>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px">
+                    <button class="btn btn-default" ng-click="afficherHistorique()">Historique</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <label for="inputResultAddress">Adresse Générée</label>
+                    <input class="form-control" type="text" id="inputResultAddress" ng-model="toolsModel.resultAddress">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <label for="textReturn">Retour</label>
+                    <textarea class="form-control" rows="6" id="textReturn" ng-model="toolsModel.resultEvent"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="gdeAdapterWindow col-md-8 col-lg-8">
+            <gde-adapter />
+        </div>
+</div>
